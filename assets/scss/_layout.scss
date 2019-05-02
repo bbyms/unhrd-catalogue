@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    align-items: center;
+    @include media-breakpoint-up(md) {
+        min-height: 90vh;
+    }
+}
+
+
+.homepage {
+    background: url('/images/02.jpg') no-repeat 0% 0% fixed;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.rectangle {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}
