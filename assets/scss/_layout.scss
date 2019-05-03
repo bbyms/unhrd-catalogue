@@ -1,14 +1,35 @@
 main {
     display: flex;
-    align-items: center;
     @include media-breakpoint-up(md) {
         min-height: 90vh;
     }
 }
 
-
 .homepage {
-    background: url('/images/02.jpg') no-repeat 0% 0% fixed;
+    background: url('/images/05.jpg') no-repeat 0% 0% fixed;
+    background-size: cover;
+}
+
+.products {
+    background: url('/images/05.jpg') no-repeat 0% 0% fixed;
+    background-size: cover;
+}
+
+.error {
+    background: $dark;
+
+    main {
+        align-items: center;
+    }
+
+    .error-illustration {
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+}
+
+html {
     min-height: 100vh;
     background-size: cover;
 }
@@ -16,4 +37,54 @@ main {
 .rectangle {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 30px;
+    height: 100%;
+    margin-left: -15px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    grid-column-gap: 15px;
+    grid-row-gap: 30px;
+    align-items: center;
+
+    @include media-breakpoint-up(md) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    label {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 0.8rem;
+        color: $primary;
+    }
+
+    img {
+        object-fit: contain;
+        height: 200px;
+        opacity: .5;
+        transition: all .3s ease-in-out;
+    }
+
+    div {
+        text-align: center;
+        padding: 15px;
+
+        &:hover {
+            background-color: #19486a80;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+
+            img {
+                opacity: 1;
+                transition: all .3s ease-in-out;
+            }
+        }
+    }
 }
