@@ -1,0 +1,14 @@
+.modal-content,
+.modal-header,
+.modal-footer {
+    border-radius: 0;
+}
+
+.modal-header {
+    background-color: $primary;
+}
+
+.modal-footer {
+    background-color: $gray-900;
+    display: block;
+}

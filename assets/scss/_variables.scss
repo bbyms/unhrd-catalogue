@@ -754,7 +754,7 @@ $modal-dialog-margin-y-sm-up: 1.75rem !default;
 
 $modal-title-line-height:           $line-height-base !default;
 
-$modal-content-bg:               $white !default;
+$modal-content-bg:               $black;
 $modal-content-border-color:     rgba($black, .2) !default;
 $modal-content-border-width:     $border-width !default;
 $modal-content-box-shadow-xs:    0 .25rem .5rem rgba($black, .5) !default;
@@ -762,8 +762,8 @@ $modal-content-box-shadow-sm-up: 0 .5rem 1rem rgba($black, .5) !default;
 
 $modal-backdrop-bg:           $black !default;
 $modal-backdrop-opacity:      .5 !default;
-$modal-header-border-color:   $gray-200 !default;
-$modal-footer-border-color:   $modal-header-border-color !default;
+$modal-header-border-color:   $primary;
+$modal-footer-border-color:   $gray-900;
 $modal-header-border-width:   $modal-content-border-width !default;
 $modal-footer-border-width:   $modal-header-border-width !default;
 $modal-header-padding:        1rem !default;
@@ -884,7 +884,7 @@ $carousel-transition:               transform .6s ease !default;
 
 $close-font-size:                   $font-size-base * 1.5 !default;
 $close-font-weight:                 $font-weight-bold !default;
-$close-color:                       $black !default;
+$close-color:                       $white;
 $close-text-shadow:                 0 1px 0 $white !default;
 
 // Code
