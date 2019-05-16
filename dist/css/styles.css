@@ -16218,7 +16218,6 @@ html {
     -o-object-fit: contain;
        object-fit: contain;
     height: 200px;
-    opacity: .5;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
   .product-grid div {
