@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html class="products">
+
+<head>
+	<meta charset="utf-8">
+	<title>UNHRD Catalogue</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="UNHRD Catalogue">
+	<meta name="description" content="UNHRD Product and Services Catalogue">
+	<meta name="author" content="UNHRD">
+
+	<meta property="og:url" content="" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="UNHRD Catalogue" />
+	<meta property="og:description" content="UNHRD Product and Services Catalogue" />
+	<meta property="og:image" content="" />
+
+	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body>
+	<% include _partials/_navbar %>
+	<main class="overlay">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 offset-md-2 text-center mt-4 mb-4">
+					<h1>Accessories</h1>
+					<p>
+						Browse through our products. Updated regularly.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="col">
+					<div class="product-grid">
+						<div data-toggle="modal" data-target="#anchorBallast">
+							<img src="images/products/placeholder.png" alt="No photo available">
+							<h5>Anchor Ballast</h5>
+							<label for="">Storage</label>
+						</div>
+						<div data-toggle="modal" data-target="#bed">
+								<img src="images/products/placeholder.png" alt="No photo available">
+							<h5>Bed</h5>
+							<label for="">Shelter</label>
+						</div>
+						<div data-toggle="modal" data-target="#cabinet">
+								<img src="images/products/placeholder.png" alt="No photo available">
+							<h5>Cabinet</h5>
+							<label for="">Shelter</label>
+						</div>
+						<div data-toggle="modal" data-target="#connectionKit">
+								<img src="images/products/placeholder.png" alt="No photo available">
+							<h5>Connection Kit</h5>
+							<label for="">Storage</label>
+						</div>
+						<div data-toggle="modal" data-target="#desk">
+							<img src="images/products/desk.png" alt="Desk">
+							<h5>Desk</h5>
+							<label for="">Shelter</label>
+						</div>
+						<div data-toggle="modal" data-target="#electricBox">
+								<img src="images/products/placeholder.png" alt="No photo available">
+							<h5>Electric Box</h5>
+							<label for="">Shelter</label>
+						</div>
+						<div data-toggle="modal" data-target="#fireAlarm">
+								<img src="images/products/placeholder.png" alt="No photo available">
+							<h5>Fire Alarm Set</h5>
+							<label for="">Storage</label>
+						</div>
+						<div data-toggle="modal" data-target="#lightingIndoor">
+								<img src="images/products/placeholder.png" alt="No photo available">
+							<h5>Lighting Set for Indoor</h5>
+							<label for="">Storage</label>
+						</div>
+						<div data-toggle="modal" data-target="#stormKit">
+								<img src="images/products/placeholder.png" alt="No photo available">
+							<h5>Storm Kit</h5>
+							<label for="">Storage</label>
+						</div>
+						<div data-toggle="modal" data-target="#toolkit">
+								<img src="images/products/placeholder.png" alt="No photo available">
+							<h5>Toolkit</h5>
+							<label for="">Shelter</label>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</main>
+
+
+	<% include _accessories/_anchorBallast/_anchorBallast %>
+	<% include _accessories/_bed/_bed %>
+	<% include _accessories/_cabinet/_cabinet %>
+	<% include _accessories/_connectionKit/_connectionKit %>
+	<% include _accessories/_desk/_desk %>
+	<% include _accessories/_electricBox/_electricBox %>
+	<% include _accessories/_fireAlarm/_fireAlarm %>
+	<% include _accessories/_lightingIndoor/_lightingIndoor %>
+	<% include _accessories/_stormKit/_stormKit %>
+	<% include _accessories/_toolkit/_toolkit %>
+
+	<% include _partials/_footer %>
