@@ -7,12 +7,16 @@ main {
 
 .homepage {
     background: url('/images/02.jpg') no-repeat 0% 0% fixed;
-    background-size: cover;
+	background-size: cover;
+	background-clip: content-box;
+	background-attachment: fixed;
 }
 
 .products {
-    background: url('/images/03.jpg') no-repeat 0% 0% fixed;
-    background-size: cover;
+    background: url('/images/03.jpg') no-repeat;
+	// background-size: cover;
+	background-clip: content-box;
+	background-attachment: fixed;
 }
 
 .error {
