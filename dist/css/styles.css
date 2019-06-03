@@ -16175,6 +16175,12 @@ main {
   background-clip: content-box;
   background-attachment: fixed; }
 
+.specialty {
+  background: url("/images/06.jpg") no-repeat;
+  background-clip: content-box;
+  background-attachment: fixed;
+  background-size: cover; }
+
 .error {
   background: #19486a; }
   .error main {
