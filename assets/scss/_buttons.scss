@@ -21,3 +21,9 @@
 .btn-navy {
     @include button-variant($color__navy-60, transparent);
 }
+
+.fill-primary {
+	fill: $primary;
+	stroke: $primary;
+	color: $primary;
+}

@@ -16250,6 +16250,9 @@ h1 {
   margin-bottom: 30px;
   display: inline-block; }
 
+.text-black {
+  color: #000 !important; }
+
 .btn-block {
   text-align: left;
   font-size: 1.5rem;
@@ -16320,6 +16323,11 @@ h1 {
     .show > .btn-navy.dropdown-toggle:focus {
       -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
               box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+
+.fill-primary {
+  fill: #2a93fc;
+  stroke: #2a93fc;
+  color: #2a93fc; }
 
 .modal-content,
 .modal-header,
