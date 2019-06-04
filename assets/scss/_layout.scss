@@ -15,7 +15,8 @@ main {
 .products {
     background: url('/images/03.jpg') no-repeat;
 	background-clip: content-box;
-	background-attachment: fixed;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .specialty {
