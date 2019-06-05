@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 main {
     display: flex;
     @include media-breakpoint-up(md) {

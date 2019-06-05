@@ -16156,6 +16156,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+html {
+  scroll-behavior: smooth; }
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
