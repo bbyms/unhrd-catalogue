@@ -16,5 +16,10 @@
 	.nav-link {
 		padding: 5px 0;
 		font-size: .8rem;
+		color: $gray-600;
+
+		&.active {
+			color: $primary;
+		}
 	}
 }
