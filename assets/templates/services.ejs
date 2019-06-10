@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="specialty">
+<html class="">
 
 <head>
 	<meta charset="utf-8">
@@ -22,56 +22,23 @@
 
 <body>
 	<% include _partials/_navbar %>
-	<main class="overlay">
+	<main class="text-black">
 		<div class="container">
-			<div class="row pt-5 pb-5">
-				<div class="col-md-8 offset-md-2 text-center mt-4">
-					<h1>Services</h1>
-				</div>
-			</div>
+			
 			<div class="row pb-5">
-				<div class="col-md-2">
-					<a data-toggle="collapse" href="#standardNav">Standard Services</a>
 
-					<ul class="nav flex-column collapse" id="standardNav">
-						<li class="nav-item">
-							<a class="nav-link active" href="#receipt">Receipt of stock into HRD </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#storage">Storage </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#inspection">Inspection of Stocks </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#inspection">Regular / routine storekeeping </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="#receipt">Handling within HRD premises</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#storage">Preparation of import and export documentation  </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#inspection">Issuing of stock reports </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#inspection">Access to the website </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#inspection">Access to HRD premises  </a>
-						</li>
-					</ul>
-
-				</div>
-				<div class="col-md-8">
-					<h2 id="standard">Standard Services </h2>
-					<h4 class="text-primary">Receipt of stock into HRD </h4>
+				<div class="col-md-9 services">
+					<div class="text-center mt-5">
+							<h1>Services</h1>
+					</div>
+						
+					<h2 id="standard" class="mb-3 mt-3">Standard Services </h2>
+					<h4 class="text-primary" id="receipt">Receipt of stock into HRD </h4>
 					<p>Depots acknowledges receipt of a partner’s stocks via e-mail within 24 – 48 hours.</p>
 
-					<hr class="border-white" id="storae">
+					<hr />
 
-					<h4 class="text-primary">Storage</h4>
+					<h4 class="text-primary" id="storage">Storage</h4>
 
 					<p>
 						Once goods are inspected they are immediately allocated to the appropriate storage location and
@@ -79,18 +46,18 @@
 						storage, cold chain storage, special storage for dangerous goods).
 					</p>
 
-					<hr class="border-white" id="inspection">
+					<hr />
 
-					<h4 class="text-primary">Inspection of Stocks </h4>
+					<h4 class="text-primary" id="inspection">Inspection of Stocks </h4>
 					<p>
 						Incoming stocks should arrive pre-packaged in a manner suitable for rapid export. When the items
 						delivered are not in line with the purchase order or when the packaging is not appropriate, the
 						inspection report will include recommendations regarding actions to be taken.
 					</p>
 
-					<hr class="border-white">
+					<hr />
 
-					<h4 class="text-primary">Regular / routine storekeeping </h4>
+					<h4 class="text-primary" id="storekeeping">Regular / routine storekeeping </h4>
 					<ul>
 						<li>
 							Annual physical counts
@@ -106,25 +73,25 @@
 						</li>
 					</ul>
 
-					<hr class="border-white">
+					<hr />
 
-					<h4 class="text-primary">Handling within HRD premises </h4>
+					<h4 class="text-primary" id="premises">Handling within HRD premises </h4>
 					<p>
 						Handling as a standard service refers to handling of cargo within depot premises. Incoming
 						palletized cargo is offloaded at the time of delivery. Outbound cargo is prepared for loading
 						upon receipt of a dispatch request.
 					</p>
 
-					<hr class="border-white">
+					<hr />
 
-					<h4 class="text-primary">Preparation of import and export documentation </h4>
+					<h4 class="text-primary" id="documentation">Preparation of import and export documentation </h4>
 					<p>
 						Inbound and outbound documentation is prepared.
 					</p>
 
-					<hr class="border-white">
+					<hr />
 
-					<h4 class="text-primary">Issuing of stock reports </h4>
+					<h4 class="text-primary" id="stockReport">Issuing of stock reports </h4>
 					<p>
 						All stocks are registered in the UNHRD warehouse management system that is reflected in an
 						online stock report, which is available in the restricted area of the UNHRD website. The online
@@ -132,23 +99,187 @@
 						according to item, organisation, and depot.
 					</p>
 
-					<hr class="border-white">
+					<hr />
 
-					<h4 class="text-primary">Access to the website </h4>
+					<h4 class="text-primary" id="website">Access to the website </h4>
 					<p>
 						The UNHRD website is regularly maintained and access information (username / password) is issued
 						to RAs.
 					</p>
 
-					<hr class="border-white">
+					<hr />
 
-					<h4 class="text-primary">Access to HRD premises </h4>
+					<h4 class="text-primary" id="accessPremises">Access to HRD premises </h4>
 					<p>
 						Access to UNHRD premises is ensured on working days.
 					</p>
 
-					<h2 id="specific">Specific Services</h2>
+					<hr>
+
+					<!-- Specific Services ------------------------------------------- -->
+
+					<h2 id="specific" class="mt-5 mb-3">Specific Services</h2>
+
+					<h4 class="text-primary" id="reliefItems">Procurement of emergency relief items </h4>
+
+					<p>
+						Partners can procure emergency relief items, support equipment and assets (i.e. vehicles) through UNHRD. The Network has established long-term agreements with a variety of suppliers globally that helps ensure the availability of items and speedy procurement. For specific items where we don’t have long-term agreements, we undertake a tender process that evaluates the specifications, quality, price and delivery time of the item. 
+					</p>
+
+					<hr>
+
+					<h4 class="text-primary" id="transport">Procurement of transport services </h4>
+					<p>
+						UNHRD has long-term agreements (LTAs) in place for road and sea transport to most destinations, so there is no need for a dedicated tendering process. For destinations not covered by any existing LTA, a bid process is initiated. Aside from cost, level of service and other non-price variables (delivery date, transit time, access to required equipment, etc.) are considered when determining the most appropriate carrier. 
+Under the UNHRD TA umbrella, Partners can also request WFP air and land transport services as well as shipping services. 
+					</p>
+
+					<hr>
+
+					<h4 class="text-primary" id="maintenance">Specific Maintenance </h4>
+					<p>
+						UNHRD offers specific maintenance of stock during storage period in an HRD. This includes additional inspections or physical counts, disposal of expired stock, maintenance and technical check of machines, repairs and refurbishments, supervision of specialists in case of items requiring special storage conditions (i.e. drugs or dangerous goods). 
+					</p>
+
+					<hr>
+
+					<h4 class="text-primary" id="repackaging">Repackaging and reconfiguration of stocks </h4>
+					<p>
+						In accordance with UNHRD Standard Operating Procedures (SOPs), Partners are to ensure that stocks delivered are wrapped and strapped in pallets in order to minimize offloading time.
+					</p>
+
+					<hr>
+
+					<h4 class="text-primary" id="insurance">Stock insurance </h4>
+					<p>
+						UNHRD offers stock insurance for the period of storage and transportation up to the final delivery point. 
+					</p>
+
+					<hr>
+
+					<h4 class="text-primary" id="offloading">Offloading and transfer of unpalletized cargo </h4>
+					<p>
+						UNHRD offers as a specific service the offloading and transfer of unpalletized cargo into the warehouse. 
+					</p>
+
+					<hr>
+
+					<h4 class="text-primary" id="outbound">Outbound cargo handling and shunting </h4>
+					<p>
+						As a specific service UNHRD offers the handling of cargo outbound from the warehouse and shunting. 
+					</p>
+
+					<hr>
+
+					<h4 class="text-primary" id="facilities">
+						Facilities for trainings and events 
+					</h4>
+					<p>
+						Partners can request the use of UNHRD facilities for trainings and events. 
+					</p>
+
+					<hr>
+
+					<h4 class="text-primary" id="trainings">
+						Organization of trainings 
+					</h4>
+					<p>
+						Organization of trainings on subjects related to supply chain management. 
+					</p>
+
+					<hr>
+
+					<h4 class="text-primary" id="assistance">Technical Assistance in the field </h4>
+					<p>
+						The Rapid Response Team (RRT) is available for immediate deployment upon request. They provide technical assistance as well as training in areas such as camp installation, airport operations and warehouse management. 
+					</p>
+
+					<hr>
+
+					<h4 class="text-primary" id="specialEquipment">Offloading and transfer of cargo requiring special equipment </h4>
+					<p>
+						UNHRD offers as a specific service the offloading and transfer of cargo into the warehouse in cases where specialized equipment is required. 
+					</p>
 				</div>
+
+				<div class="col-md-3 nav-sticky">
+	
+						<ul class="nav flex-column " id="standardNav">
+							<li class="nav-item">
+									<strong>Specific Services</strong>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#receipt">Receipt of stock into HRD </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#storage">Storage </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#inspection">Inspection of Stocks </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#storekeeping">Regular / routine storekeeping </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#premises">Handling within HRD premises</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#documentation">Preparation of import and export documentation  </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#stockReport">Issuing of stock reports </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#website">Access to the website </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#accessPremises">Access to HRD premises  </a>
+							</li>
+						</ul>
+	
+						<hr>
+	
+	
+						<ul class="nav flex-column " id="specificNav">
+							<li class="nav-item">
+								<strong>Specific Services</strong>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#reliefItems">Procurement of emergency relief items </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#transport">Procurement of transport services  </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#maintenance">Specific Maintenance </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#repackaging">Repackaging and reconfiguration of stocks </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#insurance">Stock insurance </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#offloading">Offloading and transfer of unpalletized cargo </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#outbound">Outbound cargo handling and shunting </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#facilities">Facilities for trainings and events </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#trainings">Organization of trainings </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#assistance">Technical Assistance in the field </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#specialEquipment">Offloading and transfer of cargo requiring special equipment </a>
+							</li>
+						</ul>
+	
+					</div>
 			</div>
 
 		</div>

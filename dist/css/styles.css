@@ -16246,12 +16246,28 @@ html {
         -webkit-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out; }
 
+.services h4::before {
+  display: block;
+  height: 6rem;
+  margin-top: -6rem;
+  content: ""; }
+
 .navbar-dark {
   background-color: #2a93fc; }
 
 .navbar-icon {
   height: 20px;
   width: 20px; }
+
+.nav-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 120px;
+  height: calc(100vh - 120px);
+  overflow-y: auto; }
+  .nav-sticky .nav-link {
+    padding: 5px 0;
+    font-size: .8rem; }
 
 h1 {
   border-bottom: 6px solid #2a93fc;

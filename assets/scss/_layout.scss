@@ -102,3 +102,10 @@ html {
         }
     }
 }
+
+.services h4::before {
+    display: block;
+    height: 6rem;
+    margin-top: -6rem;
+    content: "";
+}

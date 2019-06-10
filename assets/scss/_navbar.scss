@@ -6,3 +6,15 @@
     height: 20px;
     width: 20px;
 }
+
+.nav-sticky {
+	position: sticky;
+	top: 120px;
+	height: calc(100vh - 120px);
+	overflow-y: auto;
+
+	.nav-link {
+		padding: 5px 0;
+		font-size: .8rem;
+	}
+}
